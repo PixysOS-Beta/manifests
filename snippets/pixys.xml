@@ -129,7 +129,6 @@
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="pixys" />
   <project path="system/bpf" name="system_bpf" remote="pixys" />
-  <project path="system/core" name="system_core" remote="pixys" />
   <project path="system/vold" name="system_vold" remote="pixys" />
 
   <!-- Custom Hals -->
