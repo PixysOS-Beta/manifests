@@ -60,7 +60,7 @@
 
   <!-- External Repos -->
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
-  <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" remote="aosp" revision="092f92003fb17c67736c9317996d8fcf127d1aa4" />
+  <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" remote="aosp" revision="main" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixys" />
   <project path="external/libnl" name="external_libnl" remote="pixys" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixys" />
@@ -122,7 +122,7 @@
   <project path="device/pixys/sepolicy" name="device_pixys_sepolicy" remote="pixys-main" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixys" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixys-main" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="fourteeen-legacy-um" remote="pixys" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="fourteen-legacy-um" remote="pixys" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="fourteen-caf-sm8450" remote="pixys" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="fourteen-caf-sm8550" remote="pixys" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixys-main" />
