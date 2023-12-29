@@ -18,7 +18,7 @@
 
   <remote name="pixys-gitlab"
           fetch="https://gitlab.com/PixysOS"
-          revision="thirteen" />
+          revision="fourteen" />
 
   <remote name="pixys-selfhosted-gitlab"
           fetch="http://gitlab.pixysos.com:8929/fourteen"
@@ -109,7 +109,7 @@
   <project path="vendor/support" name="vendor_support" remote="pixys" />
   <project path="vendor/pixys" name="vendor_pixys" remote="pixys" />
   <project path="vendor/pixys-prebuilts" name="vendor_pixys-prebuilts" remote="pixys-gitlab" />
-  <project path="vendor/gms" name="vendor_gms" remote="pixys-selfhosted-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="pixys-gitlab" clone-depth="1" />
 
   <!-- Prebuilts -->
 
